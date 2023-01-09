@@ -6,7 +6,7 @@ function ConnectModal() {
   const [signUp, setsignUp] = React.useState(false);
   return (
     <>
-      <div className="bg-red relative bottom-8">
+      <div className="relative bottom-8">
         <button
           className="font-medium text-gray-300 px-2 text-xl bg-red-600 dark:bg-gray-800 rounded-t-md border border-transparent hover:bg-backg"
           style={{ background: signUp ? "rgb(51 65 85)" : "#7f8c8d" }}
